@@ -19,14 +19,14 @@
             },
             {
               "id": {
-                "typeCode": "ProjectNumber2",
-                "value": "@as202810"
+                "typeCode": "ReceiptNumber",
+                "value": "as32810"
               }
             },
             {
               "id": {
                 "typeCode": "ProjectNumber",
-                "value": "@as202810"
+                "value": "202810"
               }
             }
           ],

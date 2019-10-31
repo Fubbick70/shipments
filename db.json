@@ -22,6 +22,12 @@
                 "typeCode": "ProjectNumber",
                 "value": "202810"
               }
+            },
+            {
+              "id": {
+                "typeCode": "ReceiptNumber",
+                "value": "@+202810"
+              }
             }
           ],
           "status": {

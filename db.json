@@ -27,81 +27,11 @@
           "status": {
             "code": "99",
             "description": "FEL VID AVROP"
-          },
-          "estimatedArrivalDateTime": "2019-10-31T00:00:00Z",
-          "shipFromParty": {},
-          "carrierParty": {},
-          "purchasingParty": {
-            "id": {
-              "value": "5560339086"
-            },
-            "location": {
-              "address": {},
-              "contact": {
-                "personName": {
-                  "formattedName": {
-                    "value": "Tomas Ackebjer"
-                  }
-                },
-                "eMailAddressCommunication": {
-                  "eMailAddressId": {
-                    "value": "tomas.ackebjer@skanska.se"
-                  }
-                }
-              }
-            }
-          },
-          "supplierParty": {
-            "id": {
-              "value": "5360"
-            },
-            "location": {
-              "address": {
-                "name": {
-                  "typeCode": "PartyName",
-                  "value": "Weland Aktiebolag"
-                }
-              },
-              "contact": {
-                "personName": {
-                  "formattedName": {
-                    "value": "Edenborg, Fredrik"
-                  }
-                },
-                "eMailAddressCommunication": {
-                  "eMailAddressId": {
-                    "value": "dummy.user@skanska.se"
-                  }
-                }
-              }
-            }
-          },
+          },                  
           "soldToParty": {
             "id": {
               "value": "5560339086"
             },
-            "location": {
-              "address": {
-                "name": {
-                  "typeCode": "PartyName",
-                  "value": "SJÖSTADEN-58419 Byggarbetsplats"
-                },
-                "streetName": {
-                  "value": "Hemvägen 15 Byggarbetsplats"
-                },
-                "cityName": {
-                  "value": "Alingsås"
-                },
-                "countryCode": {
-                  "value": "SE"
-                },
-                "postalCode": {
-                  "value": "441 39"
-                }
-              },
-              "contact": {}
-            }
-          },
           "shipToParty": {
             "name": {
               "typeCode": "PartyName"
@@ -113,25 +43,6 @@
           {
             "quantity": {
               "typeCode": "ReceivedQuantity",
-              "unitCode": "null",
-              "value": "null"
-            },
-            "description": [
-              {
-                "typeCode": "ArticleDescription",
-                "value": "Trappa3"
-              }
-            ],
-            "orderQuantity": {
-              "typeCode": "OrderedQuantity",
-              "value": "5.0000000000"
-            },
-            "shippedQuantity": {
-              "typeCode": "DespatchedQuantity",
-              "value": "0.0000000000"
-            },
-            "backOrderedQuantity": {
-              "typeCode": "BackOrderedQuantity",
               "unitCode": "null",
               "value": "null"
             },

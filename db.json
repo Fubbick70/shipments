@@ -19,6 +19,12 @@
             },
             {
               "id": {
+                "typeCode": "ProjectNumber2",
+                "value": "@as202810"
+              }
+            },
+            {
+              "id": {
                 "typeCode": "ProjectNumber",
                 "value": "@as202810"
               }

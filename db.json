@@ -1,0 +1,519 @@
+{
+  "systemEnvironmentCode": "FAUAT",
+  "dataArea": {
+    "shipment": [
+      {
+        "shipmentHeader": {
+          "id": {
+            "typeCode": "DespatchAdviceNumber",
+            "value": "450000057"
+          },
+          "documentDateTime": "2019-10-31T13:36:59.25Z",
+          "lastModificationDateTime": "2019-09-25T07:41:00Z",
+          "documentReference": [
+            {
+              "id": {
+                "typeCode": "OrderNumber",
+                "value": "450000057"
+              }
+            },
+            {
+              "id": {
+                "typeCode": "ProjectNumber",
+                "value": "202810"
+              }
+            }
+          ],
+          "status": {
+            "code": "99",
+            "description": "FEL VID AVROP"
+          },
+          "estimatedArrivalDateTime": "2019-10-31T00:00:00Z",
+          "shipFromParty": {},
+          "carrierParty": {},
+          "purchasingParty": {
+            "id": {
+              "value": "5560339086"
+            },
+            "location": {
+              "address": {},
+              "contact": {
+                "personName": {
+                  "formattedName": {
+                    "value": "Tomas Ackebjer"
+                  }
+                },
+                "eMailAddressCommunication": {
+                  "eMailAddressId": {
+                    "value": "tomas.ackebjer@skanska.se"
+                  }
+                }
+              }
+            }
+          },
+          "supplierParty": {
+            "id": {
+              "value": "5360"
+            },
+            "location": {
+              "address": {
+                "name": {
+                  "typeCode": "PartyName",
+                  "value": "Weland Aktiebolag"
+                }
+              },
+              "contact": {
+                "personName": {
+                  "formattedName": {
+                    "value": "Edenborg, Fredrik"
+                  }
+                },
+                "eMailAddressCommunication": {
+                  "eMailAddressId": {
+                    "value": "dummy.user@skanska.se"
+                  }
+                }
+              }
+            }
+          },
+          "soldToParty": {
+            "id": {
+              "value": "5560339086"
+            },
+            "location": {
+              "address": {
+                "name": {
+                  "typeCode": "PartyName",
+                  "value": "SJÖSTADEN-58419 Byggarbetsplats"
+                },
+                "streetName": {
+                  "value": "Hemvägen 15 Byggarbetsplats"
+                },
+                "cityName": {
+                  "value": "Alingsås"
+                },
+                "countryCode": {
+                  "value": "SE"
+                },
+                "postalCode": {
+                  "value": "441 39"
+                }
+              },
+              "contact": {}
+            }
+          },
+          "shipToParty": {
+            "name": {
+              "typeCode": "PartyName"
+            }
+          },
+          "scheduledShipDateTime": "0001-01-01T00:00:00Z"
+        },
+        "shipmentItem": [
+          {
+            "quantity": {
+              "typeCode": "ReceivedQuantity",
+              "unitCode": "null",
+              "value": "null"
+            },
+            "description": [
+              {
+                "typeCode": "ArticleDescription",
+                "value": "Trappa 1"
+              }
+            ],
+            "orderQuantity": {
+              "typeCode": "OrderedQuantity",
+              "value": "2.0000000000"
+            },
+            "shippedQuantity": {
+              "typeCode": "DespatchedQuantity",
+              "value": "0.0000000000"
+            },
+            "backOrderedQuantity": {
+              "typeCode": "BackOrderedQuantity",
+              "unitCode": "null",
+              "value": "null"
+            },
+            "purchaseOrderReference": {
+              "id": {
+                "typeCode": "OrderNumber",
+                "value": "450000057"
+              },
+              "lineNumberId": {
+                "typeCode": "ReferenceToOrderLine",
+                "value": "1"
+              }
+            },
+            "extension": {
+              "receiveDelivery": [],
+              "dateTime": []
+            }
+          },
+          {
+            "quantity": {
+              "typeCode": "ReceivedQuantity",
+              "unitCode": "null",
+              "value": "null"
+            },
+            "description": [
+              {
+                "typeCode": "ArticleDescription",
+                "value": "Trappa2"
+              }
+            ],
+            "orderQuantity": {
+              "typeCode": "OrderedQuantity",
+              "value": "2.0000000000"
+            },
+            "shippedQuantity": {
+              "typeCode": "DespatchedQuantity",
+              "value": "0.0000000000"
+            },
+            "backOrderedQuantity": {
+              "typeCode": "BackOrderedQuantity",
+              "unitCode": "null",
+              "value": "null"
+            },
+            "purchaseOrderReference": {
+              "id": {
+                "typeCode": "OrderNumber",
+                "value": "450000057"
+              },
+              "lineNumberId": {
+                "typeCode": "ReferenceToOrderLine",
+                "value": "2"
+              }
+            },
+            "extension": {
+              "receiveDelivery": [],
+              "dateTime": []
+            }
+          },
+          {
+            "quantity": {
+              "typeCode": "ReceivedQuantity",
+              "unitCode": "null",
+              "value": "null"
+            },
+            "description": [
+              {
+                "typeCode": "ArticleDescription",
+                "value": "Trappa3"
+              }
+            ],
+            "orderQuantity": {
+              "typeCode": "OrderedQuantity",
+              "value": "5.0000000000"
+            },
+            "shippedQuantity": {
+              "typeCode": "DespatchedQuantity",
+              "value": "0.0000000000"
+            },
+            "backOrderedQuantity": {
+              "typeCode": "BackOrderedQuantity",
+              "unitCode": "null",
+              "value": "null"
+            },
+            "purchaseOrderReference": {
+              "id": {
+                "typeCode": "OrderNumber",
+                "value": "450000057"
+              },
+              "lineNumberId": {
+                "typeCode": "ReferenceToOrderLine",
+                "value": "3"
+              }
+            },
+            "extension": {
+              "receiveDelivery": [],
+              "dateTime": []
+            }
+          }
+        ],
+        "shipmentUnit": []
+      },
+      {
+        "shipmentHeader": {
+          "id": {
+            "typeCode": "DespatchAdviceNumber",
+            "value": "450000052"
+          },
+          "documentDateTime": "2019-10-31T13:36:59.25Z",
+          "lastModificationDateTime": "2019-09-16T15:15:00Z",
+          "documentReference": [
+            {
+              "id": {
+                "typeCode": "OrderNumber",
+                "value": "450000052"
+              }
+            },
+            {
+              "id": {
+                "typeCode": "ProjectNumber",
+                "value": "202810"
+              }
+            }
+          ],
+          "status": {
+            "code": "4",
+            "description": "Order avropad"
+          },
+          "estimatedArrivalDateTime": "2019-10-30T00:00:00Z",
+          "shipFromParty": {},
+          "carrierParty": {},
+          "purchasingParty": {
+            "id": {
+              "value": "5560339086"
+            },
+            "location": {
+              "address": {},
+              "contact": {
+                "personName": {
+                  "formattedName": {
+                    "value": "Jon Tjärnström"
+                  }
+                },
+                "eMailAddressCommunication": {
+                  "eMailAddressId": {
+                    "value": "jon.tjarnstrom@skanska.se"
+                  }
+                }
+              }
+            }
+          },
+          "supplierParty": {
+            "id": {
+              "value": "4209"
+            },
+            "location": {
+              "address": {
+                "name": {
+                  "typeCode": "PartyName",
+                  "value": "Rockwool Aktiebolag"
+                }
+              },
+              "contact": {
+                "personName": {
+                  "formattedName": {
+                    "value": "Friberg, Åsa"
+                  }
+                },
+                "telephoneCommunication": {
+                  "formattedNumber": [
+                    {
+                      "typeCode": "PhoneNumber",
+                      "value": "0705787577"
+                    }
+                  ]
+                },
+                "eMailAddressCommunication": {
+                  "eMailAddressId": {
+                    "value": "dummy.user123456543@skanska.se"
+                  }
+                }
+              }
+            }
+          },
+          "soldToParty": {
+            "id": {
+              "value": "5560339086"
+            },
+            "location": {
+              "address": {
+                "name": {
+                  "typeCode": "PartyName",
+                  "value": "SJÖSTADEN-58419 Byggarbetsplats"
+                },
+                "streetName": {
+                  "value": "Hemvägen 15 Byggarbetsplats"
+                },
+                "cityName": {
+                  "value": "Alingsås"
+                },
+                "countryCode": {
+                  "value": "SE"
+                },
+                "postalCode": {
+                  "value": "441 39"
+                }
+              },
+              "contact": {}
+            }
+          },
+          "shipToParty": {
+            "name": {
+              "typeCode": "PartyName"
+            }
+          },
+          "scheduledShipDateTime": "0001-01-01T00:00:00Z"
+        },
+        "shipmentItem": [
+          {
+            "id": {
+              "typeCode": "LineNumber",
+              "value": "1"
+            },
+            "supplierItemIdentification": {
+              "itemIdSet": {
+                "id": {
+                  "typeCode": "SuppliersArticleNumber",
+                  "value": "A"
+                }
+              }
+            },
+            "quantity": {
+              "typeCode": "ReceivedQuantity",
+              "unitCode": "ST",
+              "value": "0.0000000000"
+            },
+            "description": [
+              {
+                "typeCode": "ArticleDescription",
+                "value": "Undertak 1"
+              }
+            ],
+            "orderQuantity": {
+              "typeCode": "OrderedQuantity",
+              "unitCode": "ST",
+              "value": "5.0000000000"
+            },
+            "shippedQuantity": {
+              "typeCode": "DespatchedQuantity",
+              "unitCode": "ST",
+              "value": "0.0000000000"
+            },
+            "backOrderedQuantity": {
+              "typeCode": "BackOrderedQuantity",
+              "unitCode": "null",
+              "value": "null"
+            },
+            "purchaseOrderReference": {
+              "id": {
+                "typeCode": "OrderNumber",
+                "value": "450000052"
+              },
+              "lineNumberId": {
+                "typeCode": "ReferenceToOrderLine",
+                "value": "1"
+              }
+            },
+            "extension": {
+              "receiveDelivery": [],
+              "dateTime": []
+            }
+          },
+          {
+            "id": {
+              "typeCode": "LineNumber",
+              "value": "2"
+            },
+            "supplierItemIdentification": {
+              "itemIdSet": {
+                "id": {
+                  "typeCode": "SuppliersArticleNumber",
+                  "value": "B"
+                }
+              }
+            },
+            "quantity": {
+              "typeCode": "ReceivedQuantity",
+              "unitCode": "ST",
+              "value": "0.0000000000"
+            },
+            "description": [
+              {
+                "typeCode": "ArticleDescription",
+                "value": "Undertak 2"
+              }
+            ],
+            "orderQuantity": {
+              "typeCode": "OrderedQuantity",
+              "unitCode": "ST",
+              "value": "50.0000000000"
+            },
+            "shippedQuantity": {
+              "typeCode": "DespatchedQuantity",
+              "unitCode": "ST",
+              "value": "0.0000000000"
+            },
+            "backOrderedQuantity": {
+              "typeCode": "BackOrderedQuantity",
+              "unitCode": "null",
+              "value": "null"
+            },
+            "purchaseOrderReference": {
+              "id": {
+                "typeCode": "OrderNumber",
+                "value": "450000052"
+              },
+              "lineNumberId": {
+                "typeCode": "ReferenceToOrderLine",
+                "value": "2"
+              }
+            },
+            "extension": {
+              "receiveDelivery": [],
+              "dateTime": []
+            }
+          },
+          {
+            "id": {
+              "typeCode": "LineNumber",
+              "value": "3"
+            },
+            "supplierItemIdentification": {
+              "itemIdSet": {
+                "id": {
+                  "typeCode": "SuppliersArticleNumber",
+                  "value": "C"
+                }
+              }
+            },
+            "quantity": {
+              "typeCode": "ReceivedQuantity",
+              "unitCode": "M2",
+              "value": "0.0000000000"
+            },
+            "description": [
+              {
+                "typeCode": "ArticleDescription",
+                "value": "Undertak 3"
+              }
+            ],
+            "orderQuantity": {
+              "typeCode": "OrderedQuantity",
+              "unitCode": "M2",
+              "value": "25.0000000000"
+            },
+            "shippedQuantity": {
+              "typeCode": "DespatchedQuantity",
+              "unitCode": "M2",
+              "value": "0.0000000000"
+            },
+            "backOrderedQuantity": {
+              "typeCode": "BackOrderedQuantity",
+              "unitCode": "null",
+              "value": "null"
+            },
+            "purchaseOrderReference": {
+              "id": {
+                "typeCode": "OrderNumber",
+                "value": "450000052"
+              },
+              "lineNumberId": {
+                "typeCode": "ReferenceToOrderLine",
+                "value": "3"
+              }
+            },
+            "extension": {
+              "receiveDelivery": [],
+              "dateTime": []
+            }
+          }
+        ],
+        "shipmentUnit": []
+      }
+    ]
+  }
+}
